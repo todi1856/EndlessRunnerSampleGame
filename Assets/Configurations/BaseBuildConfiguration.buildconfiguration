@@ -1,0 +1,25 @@
+{
+    "Dependencies": [],
+    "Components": [{
+        "$type": "Unity.Build.Common.GeneralSettings, Unity.Build.Common",
+        "ProductName": "Endless Runner Incremental",
+        "CompanyName": "Unity Technologies"
+    }, {
+        "$type": "Unity.Build.Common.SceneList, Unity.Build.Common",
+        "BuildCurrentScene": false,
+        "SceneInfos": [{
+            "$type": "Unity.Build.Common.SceneList+SceneInfo, Unity.Build.Common",
+            "Scene": "GlobalObjectId_V1-1-66b8e0d49d006dd4cb32d8b0fa444728-102900000-0",
+            "AutoLoad": false
+        }, {
+            "$type": "Unity.Build.Common.SceneList+SceneInfo, Unity.Build.Common",
+            "Scene": "GlobalObjectId_V1-1-678d462d33ebdd7419400a9476bf6759-102900000-0",
+            "AutoLoad": false
+        }, {
+            "$type": "Unity.Build.Common.SceneList+SceneInfo, Unity.Build.Common",
+            "Scene": "GlobalObjectId_V1-1-c81bf86fb95a26446ae42f499fcbc766-102900000-0",
+            "AutoLoad": false
+        }],
+        "Scenes": []
+    }]
+}

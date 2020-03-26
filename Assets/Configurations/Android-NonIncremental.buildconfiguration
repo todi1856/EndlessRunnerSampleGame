@@ -1,0 +1,27 @@
+{
+    "Dependencies": [
+        "GlobalObjectId_V1-1-306f25af6f5a0c04091630ae8f110732-93214019566545601-0"
+    ],
+    "Components": [{
+        "$type": "Unity.Build.Classic.ClassicBuildProfile, Unity.Build.Classic",
+        "Target": -2,
+        "Platform": "Android",
+        "Configuration": 1,
+        "Incremental": false,
+        "Pipeline": "Unity.Platforms.Android.Build.AndroidClassicNonIncrementalPipeline, Unity.Platforms.Android.Build",
+        "ExcludedAssemblies": []
+    }, {
+        "$type": "Unity.Build.Classic.ClassicScriptingSettings, Unity.Build.Classic",
+        "ScriptingBackend": 0,
+        "Il2CppCompilerConfiguration": 1,
+        "UseIncrementalGC": false
+    }, {
+        "$type": "Unity.Platforms.Android.Build.ApplicationIdentifier, Unity.Platforms.Android.Build",
+        "PackageName": "com.unity.EndlessRunnerNonIncremental"
+    }, {
+        "$type": "Unity.Platforms.Android.Build.AndroidExportSettings, Unity.Platforms.Android.Build",
+        "TargetType": 0,
+        "ExportProject": false,
+        "BuildSystem": 0
+    }]
+}
